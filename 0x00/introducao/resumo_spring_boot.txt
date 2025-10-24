@@ -1,0 +1,23 @@
+O que é Spring Boot Framework?
+    é um framework JAva openSource que simplifica e acelera o desenvolvimento, pois já contém a a maioria das 
+    configurações necessárias que antes era preciso fazer manualmente, possui vários serviços embutidos.
+
+
+Quais são os benefícios e recursos que Spring Boot fornece?
+- O projeto já vem com a configuração inicial feita.
+- tem um servidor embutido Tomcat
+- Com o actuator deixa disponível métricas, health e endpoints úteis.
+- utiliza application.properties/yml para configuração
+
+Como adicionar dependências (JPA, Hibernate, etc)?
+    Adicionando as dependencias necessárias no pom.xml e fazendo download do que é necessário através dele.
+
+Melhor IDE (minha opinião, informal):
+    IntelliJ IDEA é mais fácil de configurar para rodar um projeto Spring,o que deixa ela mais produtiva,
+    possui , suporte Spring, integração com Spring Boot, debugging tudo da própria IDE
+        Também gosto bastande do VsCode, porém ele demanda de instalações de plugins para algumas coisas funcionarem, então não
+    fica tão automatizada quanto o IntelliJ
+
+O que é Spring Initializr?
+    é uma interfaze que você coloca as configurações iniciais que quer no projeto Spring e ele te entrega em um arquivo
+    zipado, pronto para ser utilizado, apenas descompactar e importar na IDe de preferência.
