@@ -1,5 +1,13 @@
-package 0x07.api-rest-calculator.src.test.java.com.example.calculator;
+package com.example.calculator;
 
-public class CalculatorApiApplicationTests {
-    
+import org.junit.jupiter.api.Test;
+import org.springframework.boot.test.context.SpringBootTest;
+
+@SpringBootTest
+class CalculatorApiApplicationTests {
+
+	@Test
+	void contextLoads() {
+	}
+
 }
